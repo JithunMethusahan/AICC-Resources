@@ -8,7 +8,11 @@ import { getFeaturedResources } from '@/data/resources';
 export default function Resources() {
   const featured = getFeaturedResources().slice(0, 6);
   return <ResourceLayout>
-    <ResourceHero title="AI" titleAccent="Resources" subtitle="A curated collection of free resources for learning AI and preparing for AI competitions." />
+    <div className="bg-white dark:bg-[#0a0a0f] border-b border-gray-200 dark:border-white/10">
+      <div className="mx-auto max-w-7xl px-4 pt-6 pb-6">
+        <p className="text-md text-gray-600 dark:text-gray-300 font-light max-w-4xl mb-0">A curated collection of free resources for learning AI and preparing for AI competitions.</p>
+      </div>
+    </div>
     <main className="mx-auto max-w-7xl px-4 py-10 pb-20">
       <section className="mb-10 rounded-xl border border-gray-200 bg-white p-6 dark:border-white/10 dark:bg-white/5">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
