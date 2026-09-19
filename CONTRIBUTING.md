@@ -4,7 +4,7 @@ You can contribute without changing any code.
 
 ## Suggest a resource
 
-Use the **[Suggest a Resource form](https://github.com/JithunMethusahan/ioai-community-contest/issues/new?template=resource.yml)**.
+Use the **[Suggest a Resource form](https://github.com/JithunMethusahan/AICC-Resources/issues/new?template=resource.yml)**.
 
 You only need to provide:
 - **Resource name**
