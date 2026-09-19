@@ -13,7 +13,7 @@ export default function Resources() {
       <section className="mb-10 rounded-xl border border-gray-200 bg-white p-6 dark:border-white/10 dark:bg-white/5">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex gap-3"><BookOpen className="mt-1 h-5 w-5 shrink-0 text-aicc-purple"/><div><h2 className="text-xl font-bold text-gray-900 dark:text-white">Learn by topic</h2><p className="mt-1 text-sm text-gray-600 dark:text-gray-300">Browse the general collection or follow the IOAI syllabus topic by topic.</p></div></div>
-          <a href="https://github.com/JithunMethusahan/ioai-community-contest/issues/new/choose" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-lg bg-aicc-purple px-4 py-2 text-sm font-semibold text-white hover:opacity-90">Suggest a resource <ArrowRight className="h-4 w-4"/></a>
+          <a href="https://github.com/JithunMethusahan/AICC-Resources/issues/new/choose" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-lg bg-aicc-purple px-4 py-2 text-sm font-semibold text-white hover:opacity-90">Suggest a resource <ArrowRight className="h-4 w-4"/></a>
         </div>
       </section>
       <ResourceCategoryNav />
