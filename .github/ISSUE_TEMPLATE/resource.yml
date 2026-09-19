@@ -1,0 +1,60 @@
+name: Suggest a Resource
+description: Suggest a free AI learning resource
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! You do not need to write code. Fill in the fields below.
+
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name
+      description: The name of the course, article, video, book, tool, etc.
+      placeholder: e.g. The Illustrated Transformer
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Resource link
+      description: Use the direct link to the free resource.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: What does a student learn from this resource?
+      placeholder: 1–3 simple sentences.
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Specific category (optional)
+      description: e.g. Foundations of ML → Supervised Learning, NLP → Language Models
+      placeholder: Leave blank if you are not sure.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we consider it? (optional)
+      description: Tell us what makes it useful.
+      placeholder: A short reason is enough.
+
+  - type: input
+    id: level
+    attributes:
+      label: Suggested level (optional)
+      description: Beginner, Intermediate, or Advanced
+
+  - type: markdown
+    attributes:
+      value: |
+        **Please note:** Resources must be free to access. The maintainer reviews submissions before anything is added to the website.
