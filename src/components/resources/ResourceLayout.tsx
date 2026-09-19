@@ -7,7 +7,7 @@ export default function ResourceLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur dark:border-white/10 dark:bg-[#0a0a0f]/95">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-end px-4">
           <a
-            href="https://github.com/JithunMethusahan/ioai-community-contest"
+            href="https://github.com/JithunMethusahan/AICC-Resources"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-white/10"
