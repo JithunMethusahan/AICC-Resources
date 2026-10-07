@@ -18,7 +18,7 @@ export default function App() {
     <HashRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Navigate to="/resources" replace />} />
+        <Route path="/" element={<Navigate to="/ioai-2026" replace />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/ioai-2026" element={<IOAI2026 />} />
         <Route path="/resources/general/:categoryId" element={<ResourceCategory />} />
