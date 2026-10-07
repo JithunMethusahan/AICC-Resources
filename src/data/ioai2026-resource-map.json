@@ -1,0 +1,1258 @@
+{
+  "version": "2026-10-07",
+  "title": "AICC — IOAI 2026 Resource Map",
+  "source": "Official IOAI 2026 syllabus supplied for this project",
+  "status": "curated-draft",
+  "resource_policy": "Three starting resources per syllabus topic, prioritising free/public material and mixing formats.",
+  "resources": [
+    {
+      "id": "python",
+      "title": "CS50P — Introduction to Programming with Python",
+      "url": "https://cs50.harvard.edu/python/",
+      "type": "course",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "python-docs",
+      "title": "The Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "numpy",
+      "title": "NumPy Learn",
+      "url": "https://numpy.org/learn/",
+      "type": "course",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "pandas",
+      "title": "pandas Getting Started Tutorials",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "matplotlib",
+      "title": "Matplotlib Tutorials",
+      "url": "https://matplotlib.org/stable/tutorials/index",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "seaborn",
+      "title": "Seaborn Tutorial",
+      "url": "https://seaborn.pydata.org/tutorial",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "sklearn",
+      "title": "scikit-learn Getting Started",
+      "url": "https://scikit-learn.org/stable/getting_started.html",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "kaggle",
+      "title": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "type": "course",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "mlcc",
+      "title": "Google Machine Learning Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "type": "course",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "mlcc-ex",
+      "title": "Google MLCC Exercises",
+      "url": "https://developers.google.com/machine-learning/crash-course/exercises",
+      "type": "practice",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "sklearn-supervised",
+      "title": "scikit-learn Supervised Learning",
+      "url": "https://scikit-learn.org/stable/supervised_learning.html",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "statquest",
+      "title": "StatQuest ML Playlists",
+      "url": "https://www.youtube.com/@statquest/playlists",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "logistic-video",
+      "title": "StatQuest — Logistic Regression",
+      "url": "https://www.youtube.com/watch?v=yIYKR4sgzI8",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "tree-video",
+      "title": "StatQuest — Decision Trees",
+      "url": "https://www.youtube.com/watch?v=7VeUPuFGJHk",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "rf-video",
+      "title": "StatQuest — Random Forests",
+      "url": "https://www.youtube.com/watch?v=J4Wdy0Wc_xQ",
+      "type": "video",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "svm-video",
+      "title": "StatQuest — SVM",
+      "url": "https://www.youtube.com/watch?v=efR1C6CvhmE",
+      "type": "video",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "kmeans-video",
+      "title": "StatQuest — K-means",
+      "url": "https://www.youtube.com/watch?v=4b5d3muPQmA",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "pca-video",
+      "title": "StatQuest — PCA",
+      "url": "https://www.youtube.com/watch?v=FgakZw6K1QQ",
+      "type": "video",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "gd-video",
+      "title": "StatQuest — Gradient Descent",
+      "url": "https://www.youtube.com/watch?v=sDv4f4s2SB8",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "clustering",
+      "title": "scikit-learn Clustering",
+      "url": "https://scikit-learn.org/stable/modules/clustering.html",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "manifold",
+      "title": "scikit-learn Manifold Learning",
+      "url": "https://scikit-learn.org/stable/modules/manifold.html",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "umap",
+      "title": "UMAP Documentation",
+      "url": "https://umap-learn.readthedocs.io/en/latest/",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "metrics",
+      "title": "scikit-learn Metrics & Scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "cv",
+      "title": "scikit-learn Cross-Validation",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "intermediate-ml",
+      "title": "Kaggle Intermediate Machine Learning",
+      "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "feature-eng",
+      "title": "Kaggle Feature Engineering",
+      "url": "https://www.kaggle.com/learn/feature-engineering",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "pytorch",
+      "title": "PyTorch Learn the Basics",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "type": "course",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "pytorch-video",
+      "title": "PyTorch Beginner Video Series",
+      "url": "https://docs.pytorch.org/tutorials/beginner/introyt/introyt_index.html",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "d2l",
+      "title": "Dive into Deep Learning",
+      "url": "https://d2l.ai/",
+      "type": "book",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "fastai",
+      "title": "Practical Deep Learning for Coders",
+      "url": "https://course.fast.ai/",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "3b1b",
+      "title": "3Blue1Brown — Neural Networks",
+      "url": "https://www.3blue1brown.com/topics/neural-networks",
+      "type": "video",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "pytorch-opt",
+      "title": "PyTorch Optimization Tutorial",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "transfer",
+      "title": "PyTorch Transfer Learning Tutorial",
+      "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+      "type": "notebook",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "peft",
+      "title": "Hugging Face PEFT",
+      "url": "https://huggingface.co/docs/peft/",
+      "type": "docs",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "cs231n",
+      "title": "Stanford CS231n",
+      "url": "https://cs231n.stanford.edu/",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "cnn",
+      "title": "CNN Explainer",
+      "url": "https://poloclub.github.io/cnn-explainer/",
+      "type": "interactive",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "kaggle-cv",
+      "title": "Kaggle Computer Vision",
+      "url": "https://www.kaggle.com/learn/computer-vision",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "detection",
+      "title": "TorchVision Detection & Segmentation",
+      "url": "https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html",
+      "type": "notebook",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "yolo",
+      "title": "Ultralytics YOLO Tasks",
+      "url": "https://docs.ultralytics.com/tasks",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "clip",
+      "title": "OpenAI CLIP",
+      "url": "https://github.com/openai/CLIP",
+      "type": "code",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "dinov2",
+      "title": "DINOv2",
+      "url": "https://github.com/facebookresearch/dinov2",
+      "type": "code",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "diffusion",
+      "title": "Hugging Face Diffusion Course",
+      "url": "https://huggingface.co/learn/diffusion-course/en/unit1/1",
+      "type": "course",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "dcgan",
+      "title": "PyTorch DCGAN Tutorial",
+      "url": "https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html",
+      "type": "notebook",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "nlp",
+      "title": "Hugging Face NLP Course",
+      "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "kaggle-nlp",
+      "title": "Kaggle Natural Language Processing",
+      "url": "https://www.kaggle.com/learn/natural-language-processing",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "audio",
+      "title": "Hugging Face Audio Course",
+      "url": "https://huggingface.co/learn/audio-course/en/chapter0/introduction",
+      "type": "course",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "librosa",
+      "title": "librosa Tutorials",
+      "url": "https://librosa.org/doc/latest/tutorial.html",
+      "type": "docs",
+      "level": "beginner",
+      "free": true
+    },
+    {
+      "id": "whisper",
+      "title": "OpenAI Whisper",
+      "url": "https://github.com/openai/whisper",
+      "type": "code",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "hubert",
+      "title": "HuBERT Paper",
+      "url": "https://arxiv.org/abs/2106.07447",
+      "type": "paper",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "qwen-audio",
+      "title": "Qwen2-Audio",
+      "url": "https://github.com/QwenLM/Qwen2-Audio",
+      "type": "code",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "voxtral",
+      "title": "Voxtral Transformers Docs",
+      "url": "https://huggingface.co/docs/transformers/model_doc/voxtral",
+      "type": "docs",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "transformers",
+      "title": "Hugging Face Transformers Docs",
+      "url": "https://huggingface.co/docs/transformers/index",
+      "type": "docs",
+      "level": "intermediate",
+      "free": true
+    },
+    {
+      "id": "attention-paper",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "type": "paper",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "vit-paper",
+      "title": "An Image is Worth 16x16 Words",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "type": "paper",
+      "level": "advanced",
+      "free": true
+    },
+    {
+      "id": "resnet-paper",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "type": "paper",
+      "level": "advanced",
+      "free": true
+    }
+  ],
+  "topics": [
+    {
+      "id": "python",
+      "title": "Python",
+      "section": "Foundations",
+      "resources": [
+        "python",
+        "python-docs",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for Python and record what worked, what failed, and why."
+    },
+    {
+      "id": "numpy",
+      "title": "NumPy",
+      "section": "Foundations",
+      "resources": [
+        "numpy",
+        "kaggle",
+        "pytorch"
+      ],
+      "practice": "Complete a small hands-on task for NumPy and record what worked, what failed, and why."
+    },
+    {
+      "id": "pandas",
+      "title": "Pandas",
+      "section": "Foundations",
+      "resources": [
+        "pandas",
+        "kaggle",
+        "intermediate-ml"
+      ],
+      "practice": "Complete a small hands-on task for Pandas and record what worked, what failed, and why."
+    },
+    {
+      "id": "matplotlib-seaborn",
+      "title": "Matplotlib & Seaborn",
+      "section": "Foundations",
+      "resources": [
+        "matplotlib",
+        "seaborn",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for Matplotlib & Seaborn and record what worked, what failed, and why."
+    },
+    {
+      "id": "scikit-learn",
+      "title": "scikit-learn",
+      "section": "Foundations",
+      "resources": [
+        "sklearn",
+        "sklearn-supervised",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for scikit-learn and record what worked, what failed, and why."
+    },
+    {
+      "id": "pytorch-basics",
+      "title": "PyTorch basics",
+      "section": "Foundations",
+      "resources": [
+        "pytorch",
+        "pytorch-video",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for PyTorch basics and record what worked, what failed, and why."
+    },
+    {
+      "id": "tensors",
+      "title": "Tensor manipulation",
+      "section": "Foundations",
+      "resources": [
+        "pytorch",
+        "numpy",
+        "pytorch-video"
+      ],
+      "practice": "Complete a small hands-on task for Tensor manipulation and record what worked, what failed, and why."
+    },
+    {
+      "id": "cpu-gpu",
+      "title": "CPU/GPU training",
+      "section": "Foundations",
+      "resources": [
+        "pytorch",
+        "pytorch-video",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for CPU/GPU training and record what worked, what failed, and why."
+    },
+    {
+      "id": "linear-regression",
+      "title": "Linear regression",
+      "section": "Classical ML",
+      "resources": [
+        "mlcc",
+        "statquest",
+        "mlcc-ex"
+      ],
+      "practice": "Complete a small hands-on task for Linear regression and record what worked, what failed, and why."
+    },
+    {
+      "id": "logistic-regression",
+      "title": "Logistic regression",
+      "section": "Classical ML",
+      "resources": [
+        "logistic-video",
+        "mlcc",
+        "sklearn-supervised"
+      ],
+      "practice": "Complete a small hands-on task for Logistic regression and record what worked, what failed, and why."
+    },
+    {
+      "id": "l1-l2",
+      "title": "L1/L2 regularization",
+      "section": "Classical ML",
+      "resources": [
+        "mlcc",
+        "sklearn-supervised",
+        "intermediate-ml"
+      ],
+      "practice": "Complete a small hands-on task for L1/L2 regularization and record what worked, what failed, and why."
+    },
+    {
+      "id": "knn",
+      "title": "KNN",
+      "section": "Classical ML",
+      "resources": [
+        "sklearn-supervised",
+        "statquest",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for KNN and record what worked, what failed, and why."
+    },
+    {
+      "id": "trees",
+      "title": "Decision trees",
+      "section": "Classical ML",
+      "resources": [
+        "tree-video",
+        "sklearn-supervised",
+        "intermediate-ml"
+      ],
+      "practice": "Complete a small hands-on task for Decision trees and record what worked, what failed, and why."
+    },
+    {
+      "id": "ensembles",
+      "title": "Ensembles",
+      "section": "Classical ML",
+      "resources": [
+        "rf-video",
+        "intermediate-ml",
+        "sklearn-supervised"
+      ],
+      "practice": "Complete a small hands-on task for Ensembles and record what worked, what failed, and why."
+    },
+    {
+      "id": "svm",
+      "title": "SVM",
+      "section": "Classical ML",
+      "resources": [
+        "svm-video",
+        "sklearn-supervised",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for SVM and record what worked, what failed, and why."
+    },
+    {
+      "id": "kmeans",
+      "title": "K-means",
+      "section": "Classical ML",
+      "resources": [
+        "kmeans-video",
+        "clustering",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for K-means and record what worked, what failed, and why."
+    },
+    {
+      "id": "pca",
+      "title": "PCA",
+      "section": "Classical ML",
+      "resources": [
+        "pca-video",
+        "feature-eng",
+        "manifold"
+      ],
+      "practice": "Complete a small hands-on task for PCA and record what worked, what failed, and why."
+    },
+    {
+      "id": "tsne-umap",
+      "title": "t-SNE/UMAP",
+      "section": "Classical ML",
+      "resources": [
+        "manifold",
+        "umap",
+        "feature-eng"
+      ],
+      "practice": "Complete a small hands-on task for t-SNE/UMAP and record what worked, what failed, and why."
+    },
+    {
+      "id": "advanced-clustering",
+      "title": "DBSCAN/hierarchical/spectral clustering",
+      "section": "Classical ML",
+      "resources": [
+        "clustering",
+        "statquest",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for DBSCAN/hierarchical/spectral clustering and record what worked, what failed, and why."
+    },
+    {
+      "id": "metrics",
+      "title": "Evaluation metrics",
+      "section": "Classical ML",
+      "resources": [
+        "metrics",
+        "mlcc-ex",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for Evaluation metrics and record what worked, what failed, and why."
+    },
+    {
+      "id": "overfitting",
+      "title": "Under/overfitting",
+      "section": "Classical ML",
+      "resources": [
+        "mlcc",
+        "intermediate-ml",
+        "cv"
+      ],
+      "practice": "Complete a small hands-on task for Under/overfitting and record what worked, what failed, and why."
+    },
+    {
+      "id": "tuning",
+      "title": "Hyperparameter tuning",
+      "section": "Classical ML",
+      "resources": [
+        "intermediate-ml",
+        "sklearn",
+        "cv"
+      ],
+      "practice": "Complete a small hands-on task for Hyperparameter tuning and record what worked, what failed, and why."
+    },
+    {
+      "id": "cross-validation",
+      "title": "Cross-validation",
+      "section": "Classical ML",
+      "resources": [
+        "cv",
+        "intermediate-ml",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for Cross-validation and record what worked, what failed, and why."
+    },
+    {
+      "id": "confusion-roc",
+      "title": "Confusion matrix & ROC/AUC",
+      "section": "Classical ML",
+      "resources": [
+        "metrics",
+        "mlcc-ex",
+        "statquest"
+      ],
+      "practice": "Complete a small hands-on task for Confusion matrix & ROC/AUC and record what worked, what failed, and why."
+    },
+    {
+      "id": "feature-engineering",
+      "title": "Feature engineering",
+      "section": "Classical ML",
+      "resources": [
+        "feature-eng",
+        "intermediate-ml",
+        "sklearn"
+      ],
+      "practice": "Complete a small hands-on task for Feature engineering and record what worked, what failed, and why."
+    },
+    {
+      "id": "data-processing",
+      "title": "Data processing",
+      "section": "Classical ML",
+      "resources": [
+        "intermediate-ml",
+        "pandas",
+        "sklearn"
+      ],
+      "practice": "Complete a small hands-on task for Data processing and record what worked, what failed, and why."
+    },
+    {
+      "id": "perceptron",
+      "title": "Perceptron",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "d2l",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for Perceptron and record what worked, what failed, and why."
+    },
+    {
+      "id": "gradient-descent",
+      "title": "Gradient descent",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "gd-video",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for Gradient descent and record what worked, what failed, and why."
+    },
+    {
+      "id": "backpropagation",
+      "title": "Backpropagation",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "pytorch",
+        "d2l"
+      ],
+      "practice": "Complete a small hands-on task for Backpropagation and record what worked, what failed, and why."
+    },
+    {
+      "id": "activations",
+      "title": "Activation functions",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "pytorch",
+        "3b1b"
+      ],
+      "practice": "Complete a small hands-on task for Activation functions and record what worked, what failed, and why."
+    },
+    {
+      "id": "loss",
+      "title": "Loss functions",
+      "section": "Deep Learning",
+      "resources": [
+        "pytorch",
+        "mlcc",
+        "d2l"
+      ],
+      "practice": "Complete a small hands-on task for Loss functions and record what worked, what failed, and why."
+    },
+    {
+      "id": "mlp",
+      "title": "MLP",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "pytorch",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for MLP and record what worked, what failed, and why."
+    },
+    {
+      "id": "embeddings",
+      "title": "Embeddings",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "nlp",
+        "mlcc"
+      ],
+      "practice": "Complete a small hands-on task for Embeddings and record what worked, what failed, and why."
+    },
+    {
+      "id": "pooling",
+      "title": "Pooling",
+      "section": "Deep Learning",
+      "resources": [
+        "cnn",
+        "cs231n",
+        "d2l"
+      ],
+      "practice": "Complete a small hands-on task for Pooling and record what worked, what failed, and why."
+    },
+    {
+      "id": "attention",
+      "title": "Attention",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "d2l",
+        "attention-paper"
+      ],
+      "practice": "Complete a small hands-on task for Attention and record what worked, what failed, and why."
+    },
+    {
+      "id": "transformers",
+      "title": "Transformers",
+      "section": "Deep Learning",
+      "resources": [
+        "3b1b",
+        "attention-paper",
+        "nlp"
+      ],
+      "practice": "Complete a small hands-on task for Transformers and record what worked, what failed, and why."
+    },
+    {
+      "id": "autoencoders",
+      "title": "Autoencoders",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "fastai",
+        "pytorch"
+      ],
+      "practice": "Complete a small hands-on task for Autoencoders and record what worked, what failed, and why."
+    },
+    {
+      "id": "sgd-minibatch",
+      "title": "SGD/minibatch",
+      "section": "Deep Learning",
+      "resources": [
+        "pytorch-opt",
+        "d2l",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for SGD/minibatch and record what worked, what failed, and why."
+    },
+    {
+      "id": "adam-adamw",
+      "title": "Adam/AdamW",
+      "section": "Deep Learning",
+      "resources": [
+        "pytorch-opt",
+        "d2l",
+        "pytorch"
+      ],
+      "practice": "Complete a small hands-on task for Adam/AdamW and record what worked, what failed, and why."
+    },
+    {
+      "id": "convergence-lr",
+      "title": "Convergence/learning rates",
+      "section": "Deep Learning",
+      "resources": [
+        "pytorch-opt",
+        "d2l",
+        "3b1b"
+      ],
+      "practice": "Complete a small hands-on task for Convergence/learning rates and record what worked, what failed, and why."
+    },
+    {
+      "id": "regularization-dl",
+      "title": "Dropout/early stopping/weight decay",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "pytorch",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for Dropout/early stopping/weight decay and record what worked, what failed, and why."
+    },
+    {
+      "id": "initialization",
+      "title": "Weight initialization",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "pytorch",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for Weight initialization and record what worked, what failed, and why."
+    },
+    {
+      "id": "batchnorm",
+      "title": "Batch normalization",
+      "section": "Deep Learning",
+      "resources": [
+        "d2l",
+        "pytorch",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for Batch normalization and record what worked, what failed, and why."
+    },
+    {
+      "id": "finetuning",
+      "title": "Fine-tuning",
+      "section": "Deep Learning",
+      "resources": [
+        "transfer",
+        "peft",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for Fine-tuning and record what worked, what failed, and why."
+    },
+    {
+      "id": "convolutions",
+      "title": "Convolutional layers",
+      "section": "Computer Vision",
+      "resources": [
+        "cnn",
+        "cs231n",
+        "d2l"
+      ],
+      "practice": "Complete a small hands-on task for Convolutional layers and record what worked, what failed, and why."
+    },
+    {
+      "id": "image-classification",
+      "title": "Image classification",
+      "section": "Computer Vision",
+      "resources": [
+        "kaggle-cv",
+        "cs231n",
+        "transfer"
+      ],
+      "practice": "Complete a small hands-on task for Image classification and record what worked, what failed, and why."
+    },
+    {
+      "id": "object-detection",
+      "title": "Object detection",
+      "section": "Computer Vision",
+      "resources": [
+        "yolo",
+        "detection",
+        "cs231n"
+      ],
+      "practice": "Complete a small hands-on task for Object detection and record what worked, what failed, and why."
+    },
+    {
+      "id": "segmentation",
+      "title": "Image segmentation",
+      "section": "Computer Vision",
+      "resources": [
+        "detection",
+        "yolo",
+        "cs231n"
+      ],
+      "practice": "Complete a small hands-on task for Image segmentation and record what worked, what failed, and why."
+    },
+    {
+      "id": "pretrained-vision",
+      "title": "Pretrained vision encoders",
+      "section": "Computer Vision",
+      "resources": [
+        "transfer",
+        "resnet-paper",
+        "cs231n"
+      ],
+      "practice": "Complete a small hands-on task for Pretrained vision encoders and record what worked, what failed, and why."
+    },
+    {
+      "id": "augmentation",
+      "title": "Image augmentation",
+      "section": "Computer Vision",
+      "resources": [
+        "kaggle-cv",
+        "transfer",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for Image augmentation and record what worked, what failed, and why."
+    },
+    {
+      "id": "gans",
+      "title": "GANs",
+      "section": "Computer Vision",
+      "resources": [
+        "dcgan",
+        "d2l",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for GANs and record what worked, what failed, and why."
+    },
+    {
+      "id": "self-supervised",
+      "title": "Self-supervised vision",
+      "section": "Computer Vision",
+      "resources": [
+        "dinov2",
+        "d2l",
+        "cs231n"
+      ],
+      "practice": "Complete a small hands-on task for Self-supervised vision and record what worked, what failed, and why."
+    },
+    {
+      "id": "clip",
+      "title": "CLIP/vision-language encoders",
+      "section": "Computer Vision",
+      "resources": [
+        "clip",
+        "transformers",
+        "3b1b"
+      ],
+      "practice": "Complete a small hands-on task for CLIP/vision-language encoders and record what worked, what failed, and why."
+    },
+    {
+      "id": "diffusion",
+      "title": "Diffusion",
+      "section": "Computer Vision",
+      "resources": [
+        "diffusion",
+        "fastai",
+        "d2l"
+      ],
+      "practice": "Complete a small hands-on task for Diffusion and record what worked, what failed, and why."
+    },
+    {
+      "id": "text-classification",
+      "title": "Text classification",
+      "section": "NLP & Audio",
+      "resources": [
+        "nlp",
+        "kaggle-nlp",
+        "sklearn-supervised"
+      ],
+      "practice": "Complete a small hands-on task for Text classification and record what worked, what failed, and why."
+    },
+    {
+      "id": "bert",
+      "title": "BERT",
+      "section": "NLP & Audio",
+      "resources": [
+        "nlp",
+        "transformers",
+        "3b1b"
+      ],
+      "practice": "Complete a small hands-on task for BERT and record what worked, what failed, and why."
+    },
+    {
+      "id": "language-modeling",
+      "title": "Language modeling",
+      "section": "NLP & Audio",
+      "resources": [
+        "nlp",
+        "d2l",
+        "3b1b"
+      ],
+      "practice": "Complete a small hands-on task for Language modeling and record what worked, what failed, and why."
+    },
+    {
+      "id": "encoder-decoder",
+      "title": "Encoder-decoder",
+      "section": "NLP & Audio",
+      "resources": [
+        "nlp",
+        "d2l",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for Encoder-decoder and record what worked, what failed, and why."
+    },
+    {
+      "id": "pretrained-lm",
+      "title": "Pretrained language models",
+      "section": "NLP & Audio",
+      "resources": [
+        "nlp",
+        "transformers",
+        "fastai"
+      ],
+      "practice": "Complete a small hands-on task for Pretrained language models and record what worked, what failed, and why."
+    },
+    {
+      "id": "audio-basics",
+      "title": "Audio fundamentals",
+      "section": "NLP & Audio",
+      "resources": [
+        "audio",
+        "librosa",
+        "kaggle"
+      ],
+      "practice": "Complete a small hands-on task for Audio fundamentals and record what worked, what failed, and why."
+    },
+    {
+      "id": "hubert",
+      "title": "HuBERT",
+      "section": "NLP & Audio",
+      "resources": [
+        "hubert",
+        "audio",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for HuBERT and record what worked, what failed, and why."
+    },
+    {
+      "id": "qwen-audio",
+      "title": "Qwen-Audio",
+      "section": "NLP & Audio",
+      "resources": [
+        "qwen-audio",
+        "audio",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for Qwen-Audio and record what worked, what failed, and why."
+    },
+    {
+      "id": "whisper",
+      "title": "Whisper",
+      "section": "NLP & Audio",
+      "resources": [
+        "whisper",
+        "audio",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for Whisper and record what worked, what failed, and why."
+    },
+    {
+      "id": "voxtral",
+      "title": "Voxtral",
+      "section": "NLP & Audio",
+      "resources": [
+        "voxtral",
+        "audio",
+        "transformers"
+      ],
+      "practice": "Complete a small hands-on task for Voxtral and record what worked, what failed, and why."
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "1",
+      "title": "Python & data foundations",
+      "topics": [
+        "python",
+        "numpy",
+        "pandas",
+        "matplotlib-seaborn",
+        "scikit-learn",
+        "pytorch-basics",
+        "tensors",
+        "cpu-gpu"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Classical machine learning",
+      "topics": [
+        "linear-regression",
+        "logistic-regression",
+        "l1-l2",
+        "knn",
+        "trees",
+        "ensembles",
+        "svm"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Evaluation & unsupervised learning",
+      "topics": [
+        "kmeans",
+        "pca",
+        "tsne-umap",
+        "advanced-clustering",
+        "metrics",
+        "overfitting",
+        "tuning",
+        "cross-validation",
+        "confusion-roc",
+        "feature-engineering",
+        "data-processing"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Neural networks & deep learning",
+      "topics": [
+        "perceptron",
+        "gradient-descent",
+        "backpropagation",
+        "activations",
+        "loss",
+        "mlp",
+        "embeddings",
+        "pooling",
+        "attention",
+        "transformers",
+        "autoencoders",
+        "sgd-minibatch",
+        "adam-adamw",
+        "convergence-lr",
+        "regularization-dl",
+        "initialization",
+        "batchnorm",
+        "finetuning"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Computer vision",
+      "topics": [
+        "convolutions",
+        "image-classification",
+        "object-detection",
+        "segmentation",
+        "pretrained-vision",
+        "augmentation",
+        "gans",
+        "self-supervised",
+        "clip",
+        "diffusion"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "NLP & audio",
+      "topics": [
+        "text-classification",
+        "bert",
+        "language-modeling",
+        "encoder-decoder",
+        "pretrained-lm",
+        "audio-basics",
+        "hubert",
+        "qwen-audio",
+        "whisper",
+        "voxtral"
+      ]
+    }
+  ],
+  "beyond_syllabus": "Existing AICC material outside the official IOAI 2026 syllabus should remain separately labelled rather than being silently mixed into this core map."
+}
