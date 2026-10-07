@@ -1,0 +1,1 @@
+declare module './ioai2026-resource-map.json' { const value: unknown; export default value; }
