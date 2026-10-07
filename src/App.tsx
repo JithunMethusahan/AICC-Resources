@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Resources from './pages/Resources';
 import ResourceCategory from './pages/ResourceCategory';
 import ResourceSyllabus from './pages/ResourceSyllabus';
+import IOAI2026 from './pages/IOAI2026';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -19,6 +20,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/resources" replace />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/ioai-2026" element={<IOAI2026 />} />
         <Route path="/resources/general/:categoryId" element={<ResourceCategory />} />
         <Route path="/resources/syllabus/:sectionId" element={<ResourceSyllabus />} />
         <Route path="/resources/syllabus/:sectionId/:subsectionId" element={<ResourceSyllabus />} />
