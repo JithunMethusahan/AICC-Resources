@@ -24,7 +24,7 @@ export default function ResourceLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur dark:border-white/10 dark:bg-[#0a0a0f]/95">
         <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
           <a href="https://aicc-official.org/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold tracking-tight">
-            <span className="bg-gradient-to-r from-aicc-purple to-aicc-orange bg-clip-text text-transparent">AICC</span>
+            <img src="https://aicc-official.org/favicon.ico" alt="AICC" className="h-7 w-7 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} /><span className="text-base font-extrabold tracking-tight bg-gradient-to-r from-aicc-purple to-aicc-orange bg-clip-text text-transparent">AICC</span>
           </a>
           <div className="flex items-center gap-1">
             <button
