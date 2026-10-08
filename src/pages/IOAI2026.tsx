@@ -109,7 +109,7 @@ function Home({setView,pct,done,topics,resourcesCount}:{setView:(v:'home'|'roadm
  </div>
 }
 
-function Stat({icon,value,label}:{icon:ReactNode;value:string;label:string}){return <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-white/10 dark:bg-white/5"><div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">{icon}<span className="text-sm">{label}</span></div><div className="mt-3 text-2xl font-bold text-gray-900 dark:text-white">{value}</div></div>}
+function Stat({icon,value,label}:{icon:ReactNode;value:string;label:string}){return <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-white/10 dark:bg-white/5"><div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">{icon}<span className="text-sm">{label}</span></div><div className="mt-2 text-xl font-bold text-gray-900 dark:text-white">{value}</div></div>}
 
 function Roadmap({data,progress,toggle,onTopic}:{data:MapData;progress:Record<string,boolean>;toggle:(id:string)=>void;onTopic:(t:Topic)=>void}){
  const byId=new Map(data.topics.map(t=>[t.id,t]));
@@ -128,4 +128,4 @@ function TopicDetail({topic,byId,done,toggle,onBack}:{topic:Topic;byId:Map<strin
  </div>
 }
 
-function PageTitle({title,text}:{title:string;text:string}){return <div className="mb-6"><h1 className="text-2xl font-bold text-gray-900 dark:text-white md:text-4xl">{title}</h1><p className="mt-1.5 max-w-2xl text-sm text-gray-600 dark:text-gray-300">{text}</p></div>}
+function PageTitle({title,text}:{title:string;text:string}){return <div className="mb-5"><h1 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">{title}</h1><p className="mt-1.5 max-w-2xl text-sm text-gray-600 dark:text-gray-300">{text}</p></div>}
