@@ -45,12 +45,14 @@ for (let i = 0; i < lines.length; i += 1) {
       const title = resourceMatch[1].trim();
       const url = resourceMatch[2].trim();
       const metaLines = lines.slice(j + 1, Math.min(j + 5, lines.length));
-      const meta = metaLines.join(' ');
-      const role = (meta.match(/\*\*Role:\*\* ([^·]+)/) || [,'Learn'])[1].trim();
-      const level = (meta.match(/\*\*Level:\*\* ([^·]+)/) || [,'beginner'])[1].trim();
-      const estimatedTime = (meta.match(/\*\*Time:\*\* ([^\n]+)/) || [,'20–40 min'])[1].trim();
-      const why = (meta.match(/\*\*Why it helps:\*\* ([^\n]+)/) || [,'A focused resource for this topic.'])[1].trim();
-      const reviewStatus = (meta.match(/\*\*Review status:\*\* ([^\n]+)/) || [,'Needs verification'])[1].trim();
+      const roleLine = metaLines.find((line) => line.includes('**Role:**')) || '';
+      const whyLine = metaLines.find((line) => line.includes('**Why it helps:**')) || '';
+      const reviewLine = metaLines.find((line) => line.includes('**Review status:**')) || '';
+      const role = (roleLine.match(/\*\*Role:\*\* ([^·]+)/) || [,'Learn'])[1].trim();
+      const level = (roleLine.match(/\*\*Level:\*\* ([^·]+)/) || [,'beginner'])[1].trim();
+      const estimatedTime = (roleLine.match(/\*\*Time:\*\* (.+)$/) || [,'20–40 min'])[1].trim();
+      const why = (whyLine.match(/\*\*Why it helps:\*\* (.+)$/) || [,'A focused resource for this topic.'])[1].trim();
+      const reviewStatus = (reviewLine.match(/\*\*Review status:\*\* (.+)$/) || [,'Needs verification'])[1].trim();
       const id = 'resource-' + slug(title);
       const type = role === 'Visualize' ? 'video'
         : role === 'Explore' ? 'interactive'
