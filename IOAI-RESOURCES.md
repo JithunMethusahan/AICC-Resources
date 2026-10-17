@@ -37,6 +37,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–40 min
   - **Why it helps:** A competition-focused path that teaches the Python subset students need for IOAI notebooks.
   - **Review status:** Verified
+- **Practice / visualize — [The Python Tutorial](https://docs.python.org/3/tutorial/)**
+  - **Role:** Reference · **Level:** beginner · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of python, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Kaggle Learn](https://www.kaggle.com/learn)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of python, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### NumPy <!-- id: numpy -->
 
 **Practice goal:** Complete a focused hands-on task for numpy. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -47,6 +57,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–40 min
   - **Why it helps:** Focuses on arrays, shapes, indexing, broadcasting and the NumPy operations used in ML tasks.
   - **Review status:** Verified
+- **Practice / visualize — [Kaggle Learn](https://www.kaggle.com/learn)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of numpy, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [PyTorch Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of numpy, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Pandas <!-- id: pandas -->
 
 **Practice goal:** Complete a focused hands-on task for pandas. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -57,6 +77,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–40 min
   - **Why it helps:** A task-focused guide to loading tables, inspecting data, selecting columns and preparing features.
   - **Review status:** Verified
+- **Practice / visualize — [Kaggle Learn](https://www.kaggle.com/learn)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of pandas, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Kaggle Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of pandas, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Matplotlib & Seaborn <!-- id: matplotlib-seaborn -->
 
 **Practice goal:** Complete a focused hands-on task for matplotlib & seaborn. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -86,6 +116,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–40 min
   - **Why it helps:** Shows the fit-predict workflow, pipelines and evaluation that repeat across classical ML topics.
   - **Review status:** Verified
+- **Practice / visualize — [scikit-learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)**
+  - **Role:** Reference · **Level:** intermediate · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of scikit-learn, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Kaggle Learn](https://www.kaggle.com/learn)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of scikit-learn, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### PyTorch basics <!-- id: pytorch-basics -->
 
 **Practice goal:** Complete a focused hands-on task for pytorch basics. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -96,6 +136,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–40 min
   - **Why it helps:** Focuses on the PyTorch operations and workflow relevant to IOAI, rather than an entire general course.
   - **Review status:** Verified
+- **Practice / visualize — [PyTorch Beginner Video Series](https://docs.pytorch.org/tutorials/beginner/introyt/introyt_index.html)**
+  - **Role:** Visualize · **Level:** beginner · **Time:** 10–25 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of pytorch basics, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Practical Deep Learning for Coders](https://course.fast.ai/)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of pytorch basics, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Tensor manipulation <!-- id: tensors -->
 
 **Practice goal:** Complete a focused hands-on task for tensor manipulation. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -146,6 +196,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–35 min
   - **Why it helps:** Explains the model, fitting, predictions and a practical scikit-learn workflow.
   - **Review status:** Verified
+- **Practice / visualize — [StatQuest ML Playlists](https://www.youtube.com/@statquest/playlists)**
+  - **Role:** Visualize · **Level:** beginner · **Time:** 10–25 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of linear regression, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Google MLCC Exercises](https://developers.google.com/machine-learning/crash-course/exercises)**
+  - **Role:** Practice · **Level:** beginner · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of linear regression, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Logistic regression <!-- id: logistic-regression -->
 
 **Practice goal:** Complete a focused hands-on task for logistic regression. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -156,6 +216,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–35 min
   - **Why it helps:** Connects weighted scores, sigmoid probabilities, thresholds and practical classification.
   - **Review status:** Verified
+- **Practice / visualize — [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of logistic regression, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [scikit-learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)**
+  - **Role:** Reference · **Level:** intermediate · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of logistic regression, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### L1/L2 regularization <!-- id: l1-l2 -->
 
 **Practice goal:** Complete a focused hands-on task for l1/l2 regularization. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -204,6 +274,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 25–40 min
   - **Why it helps:** Includes clear split intuition, practical scikit-learn code and controls for overfitting.
   - **Review status:** Verified
+- **Practice / visualize — [scikit-learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)**
+  - **Role:** Reference · **Level:** intermediate · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of decision trees, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Kaggle Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of decision trees, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Ensembles <!-- id: ensembles -->
 
 **Practice goal:** Complete a focused hands-on task for ensembles. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -214,6 +294,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** intermediate · **Time:** 25–40 min
   - **Why it helps:** Explains bagging, feature randomness, feature importance and practical evaluation.
   - **Review status:** Verified
+- **Practice / visualize — [Kaggle Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of ensembles, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [scikit-learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)**
+  - **Role:** Reference · **Level:** intermediate · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of ensembles, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### SVM <!-- id: svm -->
 
 **Practice goal:** Complete a focused hands-on task for svm. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -319,6 +409,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 25–40 min
   - **Why it helps:** Explains how to choose the right metric and why contest scoring rules matter.
   - **Review status:** Verified
+- **Practice / visualize — [Google MLCC Exercises](https://developers.google.com/machine-learning/crash-course/exercises)**
+  - **Role:** Practice · **Level:** beginner · **Time:** 20–40 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of evaluation metrics, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of evaluation metrics, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Under/overfitting <!-- id: overfitting -->
 
 **Practice goal:** Complete a focused hands-on task for under/overfitting. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -367,6 +467,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–35 min
   - **Why it helps:** Explains why one validation split can mislead and how cross-validation improves model comparisons.
   - **Review status:** Verified
+- **Practice / visualize — [Kaggle Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of cross-validation, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of cross-validation, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Confusion matrix & ROC/AUC <!-- id: confusion-roc -->
 
 **Practice goal:** Complete a focused hands-on task for confusion matrix & roc/auc. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -455,6 +565,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** beginner · **Time:** 20–35 min
   - **Why it helps:** Pairs visual intuition with the learning-rate and optimization details needed to train models.
   - **Review status:** Verified
+- **Practice / visualize — [StatQuest — Gradient Descent](https://www.youtube.com/watch?v=sDv4f4s2SB8)**
+  - **Role:** Visualize · **Level:** beginner · **Time:** 10–25 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of gradient descent, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of gradient descent, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Backpropagation <!-- id: backpropagation -->
 
 **Practice goal:** Complete a focused hands-on task for backpropagation. Change at least one input or setting, observe the result, and write down what worked and why.
@@ -465,6 +585,16 @@ Each entry includes its purpose and an estimated time for the relevant section, 
   - **Role:** Learn · **Level:** intermediate · **Time:** 25–40 min
   - **Why it helps:** Explains how gradients flow through a network and connects the idea to practical training code.
   - **Review status:** Verified
+- **Practice / visualize — [PyTorch Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)**
+  - **Role:** Learn · **Level:** beginner · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of backpropagation, then try the idea in a small example.
+  - **Review status:** Needs verification
+- **Go deeper — [Dive into Deep Learning](https://d2l.ai/)**
+  - **Role:** Learn · **Level:** intermediate · **Time:** 30–60 min
+  - **Why it helps:** Use the relevant section to strengthen your understanding of backpropagation, then try the idea in a small example.
+  - **Review status:** Needs verification
+
+
 ### Activation functions <!-- id: activations -->
 
 **Practice goal:** Complete a focused hands-on task for activation functions. Change at least one input or setting, observe the result, and write down what worked and why.
