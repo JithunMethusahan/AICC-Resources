@@ -1,29 +1,23 @@
 # IOAI 2026 Resource Map
 
-The file `src/data/ioai2026-resource-map.json` is the syllabus-aligned resource layer for AICC.
+The editable resource catalogue now lives in **`IOAI-RESOURCES.md`**.
 
-## What is included
+## How it works
 
-- Official IOAI 2026 syllabus topics
-- 3 curated starting resources for every mapped topic
-- Videos, courses, documentation, interactive tools, notebooks, code repositories and papers
-- Beginner → intermediate → advanced levels
-- A six-stage learning roadmap
-- A hands-on practice prompt for every topic
-- Explicit separation between the official IOAI 2026 core and material outside the syllabus
+- `IOAI-RESOURCES.md` is the human-edited source of truth.
+- `scripts/build-resource-map.mjs` converts that Markdown into `public/ioai2026-resource-map.json` during production builds.
+- The website reads the generated JSON; do not manually edit the generated file.
+- Each topic should have 2–3 focused resources, a clear reason to use each one, and a realistic time estimate.
+- Resources stay marked **Needs verification** until a maintainer checks the link and confirms it directly covers the topic.
 
-## Resource design
+## Quality standard
 
-Resources are deliberately mixed instead of giving students three copies of the same format:
+Prioritize topic fit, clear explanations, hands-on practice, reasonable length, accessible material, and stable URLs. A popular resource is not automatically a good resource for every topic. Replace broad, outdated, overly long, or weak links.
 
-- **Understand** — structured course/documentation
-- **Visualize** — videos and interactive explanations
-- **Build** — tutorials, notebooks and code
-- **Practice** — exercises and competition-oriented learning
-- **Deepen** — papers and advanced references
+## Contribution flow
 
-This dataset is intentionally a data layer first. The website UI can later turn it into a guided experience:
-
-**Goal/level → learning path → topic → resource → practice → feedback → progress → next topic**
-
-Before a resource is marked as fully verified in the future, its link and content freshness should be re-checked.
+1. Open `IOAI-RESOURCES.md`.
+2. Find the topic heading.
+3. Add or replace a resource using the existing format.
+4. Explain why it fits and estimate the time for the relevant section.
+5. Open a pull request so a maintainer can review the link and topic match.
