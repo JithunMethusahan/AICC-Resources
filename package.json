@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/build-resource-map.mjs && vite",
     "build": "node scripts/build-resource-map.mjs && vite build",
     "build:dev": "node scripts/build-resource-map.mjs && vite build --mode development",
     "lint": "eslint .",
